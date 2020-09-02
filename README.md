@@ -129,7 +129,7 @@ Optional parameters
 - `customData` (Map) - custom fields in "jenkins_custom_data" measurement
 - `customDataTags` (Map) - custom tags in "jenkins_custom_data" measurement
 - `customDataMap` (Map) - custom fields in custom measurements
-- `customDataMapTags` (Map<Map>) - custom tags in custom measurements (map of tags for each custom measurements)
+- `customDataMapTags` (Map<Map>) - custom tags in custom measurements (map of tags for each custom measurements).
 - `jenkinsEnvParameterField` (String) - custom fields in "jenkins_data" measurement (newline-separated KEY=VALUE pairs)
 - `jenkinsEnvParameterTag` (String) - custom tags in "jenkins_data" measurement (newline-separated KEY=VALUE pairs)
 - `measurementName` (String) - custom measurement name (replaces default "jenkins_data" and "jenkins_custom_data")
